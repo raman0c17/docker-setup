@@ -21,9 +21,9 @@ You can install the script using one of the following methods:
 Download and execute the script using `curl`:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/raman0c17/docker-setup/main/install_docker_monitoring.sh -o install_docker_monitoring.sh
-chmod +x install_docker_monitoring.sh
-./install_docker_monitoring.sh
+curl -fsSL https://raw.githubusercontent.com/raman0c17/docker-setup/main/install-docker.sh -o install-docker.sh
+chmod +x install-docker.sh
+./install-docker.sh
 ```
 
 ### Method 2: Using `wget`
@@ -31,9 +31,9 @@ chmod +x install_docker_monitoring.sh
 Alternatively, use `wget` to download and run the script:
 
 ```bash
-wget https://raw.githubusercontent.com/raman0c17/docker-setup/main/install_docker_monitoring.sh -O install_docker_monitoring.sh
-chmod +x install_docker_monitoring.sh
-./install_docker_monitoring.sh
+wget https://raw.githubusercontent.com/raman0c17/docker-setup/main/install-docker.sh -O install-docker.sh
+chmod +x install-docker.sh
+./install-docker.sh
 ```
 
 ### Method 3: Cloning the Repository
@@ -43,8 +43,8 @@ Clone the repository and run the script:
 ```bash
 git clone https://github.com/raman0c17/docker-setup.git
 cd docker-setup
-chmod +x install_docker_monitoring.sh
-./install_docker_monitoring.sh
+chmod +x install-docker.sh
+./install-docker.sh
 ```
 
 ## Installation Process
